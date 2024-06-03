@@ -1,0 +1,169 @@
+body{
+background-color: burlywood;
+margin: 20px;
+}
+/* PARA SA TITLE TO PAR */
+
+.brown{
+margin:100px;
+border:2px solid #2447a8;
+font-family: "Lucida Console", "Courier New", monospace;
+text-align: center;
+background-color:  #79443B;
+-webkit-text-fill-color: white;
+padding:200%;
+border-radius: 10px;
+
+
+}
+
+
+  /* For smaller screens */
+  @media (max-width: 600px) {
+    .brown  {
+      margin:1px 0px 1px 130px;
+
+    }
+    
+  }
+ 
+
+
+  @media (max-width: 1024px) {
+    .brown  {
+        margin:75px 10px 0px 10px;
+       font-size: 2vw;
+    padding: 2vw;
+    }
+    
+  }
+ 
+  @media (max-width: 10000px) {
+    .brown  {
+        margin:75px 10px 0px 10px;
+       font-size: 2vw;
+    padding: 3px 10px 3px 10px;
+    }
+    
+  }
+
+/*PARA SA TULA NAMAN TO PARRRR*/
+.diwata{
+    padding:10px 10px 10px 10px;
+    margin: 10px -10px 10px -10px;
+    border-radius: 5px;
+    position: relative; /*PARA SA MA-RELATE SA ANOTHER DIV PARA MAOVERLAY*/
+}
+
+img{
+    max-width: 100%;
+    border-radius: 30%;
+}
+
+@media (max-width: 10000px) {
+  img  {
+      width: 100%;
+     
+  }
+  
+}
+
+
+
+.pares{
+  position: absolute; /*PARA SA OVERLAY*/
+  top: 0; /*PARA SA MAPUNTA SA TOP 0 NG KANYANG DIV NA RELATIVE*/
+  padding: 0px 20px 20px 20px;
+  margin:70px 10px 0px 0px;
+  text-align: justify;
+ 
+
+}
+
+.siken{
+
+  font-family:cursive;
+  font-weight: 200;
+  color: #654321;
+
+}
+
+.diwata{
+  font-family:fantasy;
+  
+  color:#d2691e;
+}
+
+
+.overload{
+  font-family:sans-serif;
+  color:#954535;
+}
+
+
+@media (max-width:0px)and (max-width:419px){
+  .pares {
+      margin: 10%;
+      font-size: 10;
+  }
+}
+
+@media (min-width:420px)and(max-width:440px){
+  .pares {
+      margin:50px 15px 0px 15px;
+      font-size: 20px;
+  }
+}
+
+@media (min-width:500px){
+  .pares {
+      margin: 120px 15px 0px 15px;
+      font-size: 20px;
+  }
+}
+
+@media (min-width:550px){
+  .pares {
+    margin:140px 15px 0px 15px;
+      font-size: 25px;
+  }
+}
+
+@media (min-width:734px){
+  .pares {
+    margin:140px 20px 0px 20px;
+      font-size: 30px;
+  }
+}
+@media (min-width:810px){
+  .pares {
+    margin:150px 30px 0px 30px;
+      font-size: 35px;
+  }
+}
+
+@media (min-width:876px){
+  .pares {
+    margin:175px 32px 0px 32px;
+      font-size: 37px;
+  }
+}
+@media (min-width:940px){
+  .pares {
+    margin:250px 20px 0px 20px;
+      font-size: 40px;
+  }
+}
+
+@media (min-width:1118px){
+  .pares {
+    margin:250px 30px 0px 30px;
+      font-size: 45px;
+  }
+}
+@media (min-width:1119){
+  .pares {
+    margin:500px 40px 0px 50px;
+      font-size: 100px;
+  }
+}
